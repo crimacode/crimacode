@@ -19,5 +19,5 @@ class CategoricalFeatureConverter(BaseEstimator, TransformerMixin):
             X = X.drop(cat.categories.values, axis=1)
             X = pd.concat([X, cat_dummies], axis=1)
         else:
-            raise
+            raise Exception
         return X
