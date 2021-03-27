@@ -1,6 +1,5 @@
-Machine Learning and Software Library
+Machine Learning and Software Engineering Library
 
-Libraries to install on your pc to use the crimacode library
+Libraries to install on your pc to use crimacode
 
-pip install sklearn
-pip install pandas
+pip install sklearn, pandas

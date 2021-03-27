@@ -1,3 +1,1 @@
-import CategoricalFeatureConverter
-
-__all__ = ['CategoricalFeatureConverter']
+from .CategoricalFeatureConverter import CategoricalFeatureConverter

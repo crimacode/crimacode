@@ -8,6 +8,7 @@ class CategoricalFeatureConverter(BaseEstimator, TransformerMixin):
     def fit(self, X, y=None):
         return self
     def transform(self, X, y=None):
+        #get only categorical columns
         cat = pd.Categorical(X)
         cat_variables = X[cat.categories.values]
         if(self.whichone == "label"):
